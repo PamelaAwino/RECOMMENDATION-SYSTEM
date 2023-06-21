@@ -4,7 +4,10 @@
 
 ## BUSINESS UNDERSTANDING
 ## OVERVIEW
-The objective of this project is to develop a book recommendation system for Amazon that provides personalized suggestions to users based on their individual preferences and reading history. The system aims to enhance customer engagement, improve sales and revenue, increase book discovery, personalize user experience, and gain a competitive advantage in the market.
+In the era of exponential data growth, the emergence of more sophisticated systems leveraging big data has become increasingly prevalent. Among these systems, recommendation systems have proven to be valuable information filtering tools, enhancing search results by providing users with more relevant items based on their search queries or browsing history. Major technology companies have embraced recommendation systems across various applications: YouTube utilizes them to determine the next autoplay video, while Spotify employs them to curate personalized "Made for You" daily mixes.
+In line with this project's objectives, we aim to harness the power of data analysis to recommend the best books to users. By examining user behaviors, both individual and collective, we can derive insights that enable us to deliver tailored book recommendations that align with their interests and preferences.
+The underlying principle of this project is to leverage data-driven techniques to understand user preferences and behaviors. By analyzing user interactions, historical data, and patterns, we can uncover valuable insights that inform our recommendation system. This allows us to present users with a curated list of book suggestions that are highly likely to resonate with their tastes.
+
 
 ### Main Objective
 To develop a book recommendation system that leverages data analysis techniques to deliver tailored book recommendations to users, aligning with their interests and preferences.
