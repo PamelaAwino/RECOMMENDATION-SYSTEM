@@ -1,4 +1,5 @@
-![Alt text](./books-recs-1.png) 
+![Uploading image.png…]()
+
 
 # AMAZON BOOK RECOMMENDATION SYSTEM
 
