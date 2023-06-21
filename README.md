@@ -7,15 +7,17 @@
 The objective of this project is to develop a book recommendation system for Amazon that provides personalized suggestions to users based on their individual preferences and reading history. The system aims to enhance customer engagement, improve sales and revenue, increase book discovery, personalize user experience, and gain a competitive advantage in the market.
 
 ### Main Objective
-The main objective of this project is to develop a book recommendation system that leverages data analysis techniques to deliver tailored book recommendations to users, aligning with their interests and preferences.
+To develop a book recommendation system that leverages data analysis techniques to deliver tailored book recommendations to users, aligning with their interests and preferences.
 
 ### Specific Objectives
-1. Analyze top book sales: Analyze the sales data of books to gain insights into popular books and trends.
-2. Identify peak hours of user activity: Utilize the recommendation system insights to determine the most active periods of the day for users. This information can optimize online ad campaigns to target book enthusiasts during the most engaged periods.
-3. Investigate the relationship between book unit prices and quantity demanded: Explore correlations between book prices and the quantity demanded to identify any significant patterns or relationships.
-4. Monitor market trends and new book releases: Continuously monitor market trends, new book releases, and emerging genres to keep the recommendation system up to date and relevant.
+1. To analyze top book sales: Analyze the sales data of books to gain insights into popular books and trends.
+2. To identify peak hours of user activity: Utilize the recommendation system insights to determine the most active periods of the day for users. This information can optimize online ad campaigns to target book enthusiasts during the most engaged periods.
+3. To investigate the relationship between book unit prices and quantity demanded: Explore correlations between book prices and the quantity demanded to identify any significant patterns or relationships.
+4. To monitor market trends and new book releases: Continuously monitor market trends, new book releases, and emerging genres to keep the recommendation system up to date and relevant.
 
 ## DATA UNDERSTANDING
+Our dataset is from xxxxxxxxxxxxxxxxxx website
+
 The Book-Crossing dataset comprises three files:
 
 1. Users: Contains anonymized user data, including user IDs (User-ID), demographic information (Location, Age), and NULL values for missing demographic data.
@@ -31,11 +33,25 @@ The following models are implemented in this project:
 4. Top N Recommendations: Create a function that returns the top N recommendations for a user.
 5. Real-time Recommendation Feature: Deploy and implement a real-time recommendation feature that adapts to users' changing preferences. The recommendation model continuously updates by incorporating new user interactions and leveraging real-time data to deliver timely and relevant book suggestions.
 
+6. Collaborative Filtering
+
+7. We used Cosine Similarity to recommend various Books to clients.
+
+8. Memory_Based
+
+9. We used the SVD model to create our model and test our data.
+
 ## EVALUATION
 The project's success criteria is determined by achieving a Root Mean Squared Error (RMSE) of less than 0.8 for the prediction model. This indicates the accuracy of the model in forecasting user interest in specific books.
 
 ## FINDINGS
 The findings of the project will include insights into top book sales, peak hours of user activity, the relationship between book prices and quantity demanded, and market trends/new book releases. These findings will inform the recommendation system and contribute to enhancing customer engagement and revenue.
+
+Memory based We used KNN (K-Nearest Neighbours) With Means model has an test RMSE value of xxxxxx and cross validation RMSE value of xxxxxxxx.
+
+Model based
+
+We used the SVD (Singular Value Decomposition) model has a test RMSE score of xxxxxxx and cross validation (CV) RMSE score of xxxxxxx.
 
 ## RECOMMENDATIONS
 Based on the findings, the following recommendations can be made:
